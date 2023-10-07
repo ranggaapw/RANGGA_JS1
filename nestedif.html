@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested If</title>
+</head>
+<body>
+    <script>
+        var username = prompt("Username:");
+        var password = prompt("Password:");
+
+        if(username == "mentee"){
+            if(password == "il"){
+                document.write("<h2>Selamat datang di Infinite Learning!</h2>");
+            } else {
+                document.write("<p>Password salah, coba lagi!</p>");
+            }
+        } else {
+            document.write("<p>Mohon maaf anda tidak terdaftar sebagai mentee di Infininte Learning</p>");
+        }
+    </script>
+</body>
+</html>
